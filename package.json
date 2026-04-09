@@ -1,0 +1,31 @@
+{
+  "name": "sitar",
+  "displayName": "SitarforVScode",
+  "description": "Text highligter for a custom DSL used in SITAR-sim to support in VScode.",
+  "version": "0.0.1",
+  "publisher": "SharonShibu",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shareoon/sitar-vscode-extension"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sitar",
+      "aliases": ["sitar", "sitar"],
+      "extensions": [".sitar"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sitar",
+      "scopeName": "source.sitar",
+      "path": "./syntaxes/sitar.tmLanguage.json"
+    }]
+  }
+}
