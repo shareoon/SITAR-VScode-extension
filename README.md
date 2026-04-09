@@ -1,9 +1,11 @@
 # sitar README
 
 This is the README for extension "SitarforVScode".
-Support for writing code for SITAR simulation tool in VScode.
+Supports writing code for SITAR simulation tool in VScode.
 
-![SITAR Highlighting](./images/highlighting.jpg)
+<p align="center">
+  <img src="https://github.com/shareoon/SITAR-VScode-extension/blob/main/images/highlighting.jpg?raw=true" width="700"/>
+</p>
 
 ## Installation
 
@@ -15,9 +17,6 @@ Support for writing code for SITAR simulation tool in VScode.
 4. Click `...` → Install from VSIX
 5. Select the file
 
-### Method 2: CLI
-
-code --install-extension SitarforVScode-0.0.1.vsix
 
 ## Requirements
 
