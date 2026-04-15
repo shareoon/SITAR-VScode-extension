@@ -1,7 +1,7 @@
 # SitarforVScode README
 
 This is the README for extension "SitarforVScode".
-Supports writing code for SITAR simulation tool in VScode.
+Supports writing code for SITAR simulation tool (https://github.com/sitar-sim/sitar) in VScode.
 
 <p align="center">
   <img src="https://github.com/shareoon/SITAR-VScode-extension/blob/main/images/highlighting.jpg?raw=true" width="700"/>
