@@ -25,7 +25,8 @@
     "grammars": [{
       "language": "sitar",
       "scopeName": "source.sitar",
-      "path": "./syntaxes/sitar.tmLanguage.json"
+      "path": "./syntaxes/sitar.tmLanguage.json",
+      "embeddedLanguages": {"meta.embedded.sitar":"cpp"}
     }]
   }
 }
