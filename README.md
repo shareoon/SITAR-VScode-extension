@@ -1,4 +1,4 @@
-# sitar README
+# SitarforVScode README
 
 This is the README for extension "SitarforVScode".
 Supports writing code for SITAR simulation tool in VScode.
