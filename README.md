@@ -1,7 +1,7 @@
-# sitar README
+# SITARforVScode README
 
 This is the README for extension "SitarforVScode".
-Supports writing code for SITAR simulation tool in VScode.
+Supports writing code for SITAR simulation tool in VScode. (https://github.com/sitar-sim/sitar/tree/master)
 
 <p align="center">
   <img src="https://github.com/shareoon/SITAR-VScode-extension/blob/main/images/highlighting.jpg?raw=true" width="700"/>
@@ -24,8 +24,9 @@ SITAR simulation tool
 
 
 ## Release Notes
+Update syntax highlight for embedded c++.
+<img width="1273" height="783" alt="Screenshot 2026-04-19 235708" src="https://github.com/user-attachments/assets/eedccbbe-aa64-4d20-9d25-efdb83f3427d" />
 
-This is the first release.
 
 ## Author
 Sharon Shibu
