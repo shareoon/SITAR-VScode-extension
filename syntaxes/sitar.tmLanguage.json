@@ -1,43 +1,54 @@
 {
   "scopeName": "source.sitar",
   "patterns": [
+
+    {
+      "name": "comment.line.double-slash.sitar",
+      "match": "//.*"
+    },
+
+    {
+      "name": "string.quoted.double.sitar",
+      "begin": "\"",
+      "end": "\""
+    },
+
+    {
+      "name": "meta.embedded.cpp.sitar",
+      "begin": "\\$",
+      "end": "\\$",
+      "beginCaptures": {
+        "0": { "name": "punctuation.definition.embedded.begin.sitar" }
+      },
+      "endCaptures": {
+        "0": { "name": "punctuation.definition.embedded.end.sitar" }
+      },
+      "patterns": [
+        {
+          "include": "source.cpp"
+        }
+      ]
+    },
+
     {
       "name": "keyword.control.sitar",
       "match": "\\b(module|procedure|parameter|behavior|wait|until|if|then|else|do|while|stop|run|end)\\b"
     },
+
     {
       "name": "keyword.other.sitar",
       "match": "\\b(inport|outport|buffer|net|submodule|width|capacity|for|in|to)\\b"
     },
-    {
-        "name": "comment.line.double-slash.sitar",
-        "match": "//.*$"
-    },
-    {
-    "name": "string.quoted.double.sitar",
-    "begin": "\"",
-    "end": "\""
-    },
-    {
-    "name": "meta.block.code.sitar",
-    "begin": "\\$",
-    "end": "\\$",
-    "patterns": [
-        {
-        "name": "comment.line.double-slash.sitar",
-        "match": "//.*$"
-        }
-    ]
-    },
-    {
-    "name": "keyword.operator.sitar",
-    "match": "<=|=>|:"
-    },
-    {
-    "name": "punctuation.separator.sitar",
-    "match": ";|\\||\\[|\\]"
-    }
-  ]
-  
-}
 
+    {
+      "name": "keyword.operator.sitar",
+      "match": "<=|=>|:"
+    },
+
+    {
+      "name": "punctuation.separator.sitar",
+      "match": ";|\\||\\[|\\]"
+    }
+
+  ]
+}
